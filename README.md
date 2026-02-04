@@ -40,6 +40,7 @@ Place the Python files you want to audit either in the main directory or inside 
 Upon startup, the user chooses the desired service level. This interaction ensures the correct business logic is applied to the audit.
 
 ![Interactive Terminal Selection](code_fix_terminal.png)
+
 *The interactive terminal allows for quick switching between service tiers.*
 
 ---
