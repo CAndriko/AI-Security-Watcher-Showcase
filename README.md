@@ -27,7 +27,7 @@ To support different business needs, the AI Security Watcher operates in two dis
 ## 📊 Global Security Dashboard
 The system provides continuous monitoring of all scan processes. All results are automatically logged with timestamps, risk scores, and status updates:
 
-![Dashboard Preview](images/dashboard.png)
+![Dashboard Preview](dashboard.png)
 
 ---
 
