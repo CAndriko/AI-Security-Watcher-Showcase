@@ -27,7 +27,7 @@ To support different business needs, the AI Security Watcher operates in two dis
 ## 📊 Global Security Dashboard
 The system provides continuous monitoring of all scan processes. All results are automatically logged with timestamps, risk scores, and status updates:
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](images/dashboard.png)
 
 ---
 
@@ -39,7 +39,7 @@ Place the Python files you want to audit either in the main directory or inside 
 ### 🚀 Interactive Selection
 Upon startup, the user chooses the desired service level. This interaction ensures the correct business logic is applied to the audit.
 
-![Interactive Terminal Selection](code_fix_terminal.png)
+![Interactive Terminal Selection](images/code_fix_terminal.png)
 
 *The interactive terminal allows for quick switching between service tiers.*
 
@@ -50,13 +50,13 @@ Upon startup, the user chooses the desired service level. This interaction ensur
 ### Basic Tier: Professional Risk Assessment
 In Basic mode, the tool identifies critical flaws while locking the automated fix behind a professional upgrade prompt.
 
-![Audit Report Basic](report_basic.png)
+![Audit Report Basic](images/report_basic.png)
 *Example of a Basic Audit Report with the "PRO UPGRADE" notification.*
 
 ### Standard Tier: Automated Google-Level Fix
 In Standard mode, the agent provides the full, refactored code block ready for production. The generated report is automatically prefixed with **FIX_** for easy identification.
 
-![Audit Report Standard](report_standard.png)
+![Audit Report Standard](images/report_standard.png)
 *Example of a Standard Report (FIX_Report_...) featuring the full "Recommended Code-Fix" section.*
 
 ---
@@ -64,7 +64,7 @@ In Standard mode, the agent provides the full, refactored code block ready for p
 ## 🛡️ Code Optimization (Before vs. After)
 Our agent doesn't just find bugs; it rewrites insecure logic using industry-standard libraries. Below is an example of the AI identifying insecure `pickle` deserialization and replacing it with a secure `json` implementation.
 
-![Code Comparison Before After](code_fix_data.png)
+![Code Comparison Before After](images/code_fix_data.png)
 *Direct comparison: Insecure source code (left) vs. Secured Google-Level refactoring (right).*
 
 ---
